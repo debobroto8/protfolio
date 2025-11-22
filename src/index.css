@@ -1,0 +1,16 @@
+*{
+ scrollbar-width: none;
+}
+.H{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bg-Color{
+    background: linear-gradient(to right, #1e1e2f, #2c2c3f);
+    color: white;
+}
+p{
+    color: white !important;
+}

@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  
+}
+
+.navbar {
+  background: linear-gradient(to right, #1e1e2f, #2c2c3f);
+  color: #E0E0E0; /* Soft white text */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: #5AC8FA; /* Cool light blue links */
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); /* subtle text shadow */
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #FFC857; /* Warm gold on hover */
+  text-shadow: 0 1px 4px rgba(255, 200, 87, 0.8); /* glow effect on hover */
+}
+
+.navbar button {
+  background-color: #00BFAF; /* Bright teal buttons */
+  color: #1e1e2f;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 191, 175, 0.6); /* teal shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: #00FFC8; /* Brighter teal on hover */
+  box-shadow: 0 4px 12px rgba(0, 255, 200, 0.8); /* stronger glow on hover */
+}
+
+
+.nav-link {
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #e0e0e0;
+}
+.active{
+  color: brown;
+}
